@@ -3,9 +3,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.address {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
 .nav-menu-link,
-.heder-mail-link,
-.heder-tel-link {
+.header-mail,
+.header-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -26,15 +31,16 @@ body {
     list-style: none;
 }
 
-.heder-mail-link,
-.heder-tel-link {
+.header-mail,
+.header-tel {
     color: #757575;
 }
 
-.heder-mail-link:hover,
-.heder-mail-link:focus,
-.heder-tel-link:hover,
-.heder-tel-link:focus {
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+
     color:#2196F3;
 }
 
